@@ -11,3 +11,16 @@
  Tags:         light, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-child
 */
+
+.social-navigation a {
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #333;
+	width: initial;
+}
+
+.social-navigation a:hover,
+.social-navigation a:focus {
+	background-color: transparent;
+}
