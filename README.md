@@ -10,7 +10,9 @@ Have a look at the following image if you want a preview of this style. In this 
 
 ## Installation
 
-1) On your server, copy the directory `twentyseventeen-child/` from this repo to `<your-wordpress-dir>/wp-content/themes/`. Make sure the directory and all its contents have proper access rights so your web server can read the files. You should now have the following file: <your-wordpress-dir>/wp-content/themes/twentyseventeen-child/style.css (and some more in the same location).
+1) On your server, copy the directory `twentyseventeen-child/` from this repo to `<your-wordpress-dir>/wp-content/themes/`. Make sure the directory and all its contents have proper access rights so your web server can read the files.
+
+Check: as a result, you should now have the following file: `<your-wordpress-dir>/wp-content/themes/twentyseventeen-child/style.css` (and some more in the same location).
 
 2) Activate the child theme in the Wordpress Admin panel (see `Appearance => Themes`).
 
