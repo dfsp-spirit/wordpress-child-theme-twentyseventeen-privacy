@@ -8,7 +8,7 @@ Restyles the social menu on the bottom to have text links instead of icon links.
 
 Have a look at this image if you want a preview of the footer menu:
 
-![Theme preview](https://github.com/dfsp-spirit/wp-child-theme-twentyseventeen-wohngeno/preview_twentyseven_child_theme_text_footer_menu.jpg)
+![Theme preview](https://github.com/dfsp-spirit/wp-child-theme-twentyseventeen-wohngeno/blob/master/preview_twentyseven_child_theme_text_footer_menu.jpg)
 
 ## Installation
 
