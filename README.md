@@ -1,12 +1,12 @@
 # wp-child-theme-twentyseventeen-wohngeno
 A wordpress child theme for the twenty seventeen theme.
 
-Restyles the social menu on the bottom to have text links instead of icon links. This is useful especially in Germany if you want to put some of the required links in there.
+Restyles the social menu on the bottom to have text links instead of icon links. This is useful especially in Germany if you want to put some of the required links in there. Also removes the 'Proudly powered by Wordpress line'.
 
 
 ## Preview
 
-Have a look at this image if you want a preview of the footer menu, in which I have added 3 text links (titled 'Kontakt', 'Datenschutz', and 'Impressum') to the footer menu.
+Have a look at the following image if you want a preview of this style. In this example, I have added 3 text links (titled 'Kontakt', 'Datenschutz', and 'Impressum') to the footer menu.
 
 ![Theme preview](https://github.com/dfsp-spirit/wp-child-theme-twentyseventeen-wohngeno/blob/master/preview_twentyseven_child_theme_text_footer_menu.jpg)
 
