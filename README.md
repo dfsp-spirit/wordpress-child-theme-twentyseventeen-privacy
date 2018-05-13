@@ -8,6 +8,8 @@ Have a look at the following image if you want a preview of this style. In this 
 
 ![Theme preview](https://github.com/dfsp-spirit/wordpress-child-theme-twentyseventeen-textfooter/blob/master/preview_twentyseven_child_theme_text_footer_menu.jpg)
 
+Also disables HTTP referer [sic] and loads the fonts locally instead of using Google Fonts remotely.
+
 ## Installation
 
 1) On your server, copy the directory `twentyseventeen-child/` from this repo to `<your-wordpress-dir>/wp-content/themes/`. Make sure the directory and all its contents have proper access rights so your web server can read the files.
@@ -23,5 +25,3 @@ Have a look at the following image if you want a preview of this style. In this 
 License is GPL v2 or later, the repo is at https://github.com/dfsp-spirit/wordpress-child-theme-twentyseventeen-textfooter
 
 For contact info, see http://rcmd.org/contact/
-
-
