@@ -1,11 +1,11 @@
 /*
  Theme Name:   Twenty Seventeen Child WohnGeno
  Theme URI:    https://github.com/dfsp-spirit/wp-child-theme-twentyseventeen-wohngeno
- Description:  Twenty Seventeen Child Theme with adjustments required in Germany
+ Description:  Twenty Seventeen Child Theme with adjustments required in Germany and visitor privacy improvements
  Author:       Tim Schäfer
  Author URI:   http://rcmd.org/ts/
  Template:     twentyseventeen
- Version:      0.1.1
+ Version:      0.1.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, responsive-layout, accessibility-ready
@@ -23,4 +23,20 @@
 .social-navigation a:hover,
 .social-navigation a:focus {
 	background-color: transparent;
+}
+
+/* Load the font locally, so we do not need to use Google Fonts.
+/* font converted using font-converter.net. thank you! */
+
+@font-face {
+  font-family: "LibreFranklin-Regular";
+  src: url("../fonts/librefranklin/LibreFranklin-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/librefranklin/LibreFranklin-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/librefranklin/LibreFranklin-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/librefranklin/LibreFranklin-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/librefranklin/LibreFranklin-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/librefranklin/LibreFranklin-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/librefranklin/LibreFranklin-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
 }
