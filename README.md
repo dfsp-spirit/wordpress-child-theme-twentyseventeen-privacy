@@ -12,7 +12,9 @@ Also disables HTTP referer [sic] and loads the fonts locally instead of using Go
 
 ## Installation
 
-1) On your server, copy the directory `twentyseventeen-child/` from this repo to `<your-wordpress-dir>/wp-content/themes/`. Make sure the directory and all its contents have proper access rights so your web server can read the files.
+0) Make sure you copy/backup any custom CSS you have added to the Twentyseventeen theme, you may want to apply that to the child theme as well.
+
+1) On your server, copy the directories `twentyseventeen-child/` and `fonts/` from this repo to `<your-wordpress-dir>/wp-content/themes/`. Make sure the directory and all its contents have proper access rights so your web server can read the files.
 
     - Check: as a result, you should now have the following file: `<your-wordpress-dir>/wp-content/themes/twentyseventeen-child/style.css` (and some more in the same location).
 
