@@ -1,5 +1,5 @@
 # wordpress-child-theme-twentyseventeen-textfooter
-A wordpress child theme for the twenty seventeen theme. Restyles the social menu on the bottom to have text links instead of icon links. This is useful especially in Germany if you want to put some of the required links in there. Also removes the 'Proudly powered by Wordpress line'.
+A wordpress child theme for the twenty seventeen theme. Restyles the social menu on the bottom to have text links instead of icon links. This is useful especially in Germany if you want to put some of the required links in there.
 
 
 ## Preview
