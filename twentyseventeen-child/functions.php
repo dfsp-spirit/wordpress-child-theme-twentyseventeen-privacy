@@ -24,8 +24,15 @@ function add_privacy_headers(){
     <?php
 }
 
+// Remove emoticon scripts, they also contact third party websites
+function dequeue_unwanted_wordpress_stuff() {
+    remove_action('wp_head', 'print_emoji_detection_script', 7);
+    remove_action('wp_print_styles', 'print_emoji_styles');
+}
+
 
 add_action('wp_head', 'add_privacy_headers');
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action('wp_enqueue_scripts', 'dequeue_unwanted_parent_theme_stuff', 100);
+add_action('wp_enqueue_scripts', 'dequeue_unwanted_wordpress_stuff', 101);
 ?>
