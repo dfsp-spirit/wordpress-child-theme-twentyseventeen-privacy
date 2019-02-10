@@ -1,4 +1,4 @@
-# wordpress-child-theme-twentyseventeen-textfooter
+# wordpress-child-theme-twentyseventeen-privacy
 A privacy-aware wordpress child theme for the twenty seventeen theme. This gives visitors of your site better privacy.
 
 ## Features
