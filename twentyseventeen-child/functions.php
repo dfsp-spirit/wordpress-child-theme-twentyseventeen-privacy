@@ -24,6 +24,13 @@ function add_privacy_headers(){
     <?php
 }
 
+// Do not store IP of users who leave a comment.
+// Reference: https://codex.wordpress.org/Plugin_API/Filter_Reference/pre_comment_user_ip
+function wpb_remove_commentsip( $comment_author_ip ) {
+  return '';
+}
+add_filter( 'pre_comment_user_ip', 'wpb_remove_commentsip' );
+
 // Remove emoticon scripts, they also contact third party websites
 function dequeue_unwanted_wordpress_stuff() {
     remove_action('wp_head', 'print_emoji_detection_script', 7);
