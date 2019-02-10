@@ -15,6 +15,15 @@ A privacy-aware wordpress child theme for the twenty seventeen theme. This gives
 
 This remove the email field in comments, so you will have to configure WP to allow comments without email in the settings. To do this: Settings > Discussion > Other Comment Settings. Then uncheck "Comment author must fill out name and email".
 
+
+## Other recommended WP privacy settings & measures
+
+Basically do not use anything that contacts remote servers unless you really need it. This includes (but is not limited to):
+- Gravatars
+- Social media buttons
+- embedded software like video and music players (Youtube!), external visitor counters, etc. Link to them instead, so people can decide whether to view/visit or not.
+
+
 ## Preview
 
 From a visual perspective, there is almost no change. This only changed privacy settings under the hood.
