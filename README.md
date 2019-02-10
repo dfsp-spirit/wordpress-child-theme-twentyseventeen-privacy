@@ -39,6 +39,6 @@ Have a look at the following image if you want a preview of this style. In this 
 
 ## License, Source and Author
 
-License is GPL v2 or later (no warranties!), the repo is at https://github.com/dfsp-spirit/wordpress-child-theme-twentyseventeen-textfooter
+License is GPL v2 or later (no warranties!), the repo is at https://github.com/dfsp-spirit/wordpress-child-theme-twentyseventeen-privacy
 
 Written by Tim. For contact info, see http://rcmd.org/contact/
