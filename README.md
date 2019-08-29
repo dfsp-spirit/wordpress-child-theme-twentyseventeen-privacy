@@ -7,8 +7,8 @@ A privacy-aware wordpress child theme for the twenty seventeen theme. This gives
 * Disables HTTP referer [sic] so it is not tracked where people are coming from
 * Loads the fonts locally instead of using Google Fonts remotely (so Google cannot track them)  
 * Disables saving of IP addresses of people who comment. This is not needed and IP addresses are personal data, so storing them is questionable at least.
-* Remove emoticons. The graphic that gets inserted when you have them on and type something like ":)" in a post are retrieved from a remote server(!) it seems. Ridiculous.
-* Removes the need for commenters to put their email.
+* Remove emoticons. The graphic that gets inserted when you have them on and type something like ":)" in a post are retrieved from a remote server(!), and this child theme aims to remove all third-party calls.
+* Removes the need for commenters to put their email in the comment form.
 
 
 ## Required WP settings
